@@ -1,8 +1,13 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  width: 100%;
+  height: 100vh;
+
+  display: grid;
+  grid-template-rows: 105x auto;
+  grid-template-areas: 
+  "header"
+  "content"
+  ;
 `;
