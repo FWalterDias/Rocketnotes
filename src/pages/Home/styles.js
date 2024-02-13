@@ -39,7 +39,6 @@ export const Brand = styled.div`
 
 export const Menu = styled.ul`
     grid-area: menu;
-    background-color: green;
 
     background-color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
     
@@ -53,14 +52,14 @@ export const Menu = styled.ul`
 
 export const Search = styled.div`
     grid-area: search;
-    background-color: violet;
 
     padding: 6.4rem 6.4rem 0;
 `;
 
 export const Content = styled.div`
     grid-area: content;
-    background-color: blue;
+    padding: 0 6.4rem;
+    overflow-y: auto;
 `;
 
 export const NewNote = styled.button`
